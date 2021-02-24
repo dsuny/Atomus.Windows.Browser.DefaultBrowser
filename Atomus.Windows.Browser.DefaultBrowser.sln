@@ -33,7 +33,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ViewModel", "ViewModel", "{
 		src\ViewModel\DefaultBrowserViewModel.cs = src\ViewModel\DefaultBrowserViewModel.cs
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atomus.Windows.Browser.DefaultBrowser", "dotNet\Atomus.Windows.Browser.DefaultBrowser.csproj", "{A8E6E91E-5941-4545-BD66-8FDAE38142A8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atomus.Windows.Browser.DefaultBrowser(dotNet)", "dotNet\Atomus.Windows.Browser.DefaultBrowser(dotNet).csproj", "{A8E6E91E-5941-4545-BD66-8FDAE38142A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
