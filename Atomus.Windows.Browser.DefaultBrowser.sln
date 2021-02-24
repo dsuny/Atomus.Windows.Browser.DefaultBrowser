@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4636DB6D-5C72-44AC-809A-7FAD77C8CF39}"
+	ProjectSection(SolutionItems) = preProject
+		src\Dictionary1.xaml = src\Dictionary1.xaml
+		src\Dictionary2.xaml = src\Dictionary2.xaml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controllers", "Controllers", "{2F9CEF41-4C62-45BF-BD9D-01F64B9102DC}"
+	ProjectSection(SolutionItems) = preProject
+		src\Controllers\DefaultBrowserController.cs = src\Controllers\DefaultBrowserController.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{B0428777-162B-49E1-94EC-F11D3970CADC}"
+	ProjectSection(SolutionItems) = preProject
+		src\Models\DefaultBrowserSearchModel.cs = src\Models\DefaultBrowserSearchModel.cs
+		src\Models\DefaultSearchParentMenuModel.cs = src\Models\DefaultSearchParentMenuModel.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "View", "View", "{093761FA-BABE-41FA-9DF0-751C610F2A1B}"
+	ProjectSection(SolutionItems) = preProject
+		src\View\App.xaml = src\View\App.xaml
+		src\View\App.xaml.cs = src\View\App.xaml.cs
+		src\View\DefaultBrowser.xaml = src\View\DefaultBrowser.xaml
+		src\View\DefaultBrowser.xaml.cs = src\View\DefaultBrowser.xaml.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ViewModel", "ViewModel", "{8BC44D5F-6F1F-435F-9CE0-CD1EFFE1D549}"
+	ProjectSection(SolutionItems) = preProject
+		src\ViewModel\DefaultBrowserViewModel.cs = src\ViewModel\DefaultBrowserViewModel.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atomus.Windows.Browser.DefaultBrowser", "dotNet\Atomus.Windows.Browser.DefaultBrowser.csproj", "{A8E6E91E-5941-4545-BD66-8FDAE38142A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8E6E91E-5941-4545-BD66-8FDAE38142A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8E6E91E-5941-4545-BD66-8FDAE38142A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8E6E91E-5941-4545-BD66-8FDAE38142A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8E6E91E-5941-4545-BD66-8FDAE38142A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2F9CEF41-4C62-45BF-BD9D-01F64B9102DC} = {4636DB6D-5C72-44AC-809A-7FAD77C8CF39}
+		{B0428777-162B-49E1-94EC-F11D3970CADC} = {4636DB6D-5C72-44AC-809A-7FAD77C8CF39}
+		{093761FA-BABE-41FA-9DF0-751C610F2A1B} = {4636DB6D-5C72-44AC-809A-7FAD77C8CF39}
+		{8BC44D5F-6F1F-435F-9CE0-CD1EFFE1D549} = {4636DB6D-5C72-44AC-809A-7FAD77C8CF39}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {369B4561-8A70-4F38-B217-46A07DC25103}
+	EndGlobalSection
+EndGlobal
